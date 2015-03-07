@@ -4,16 +4,23 @@ body {
 
 #total {
     background-color:blue;
-    
     display: block;
     margin-left:auto;
     margin-right:auto;
     height:300px;
     width: 1166px;
+    cursor:default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 #pic {
     position:relative;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 #time {
@@ -23,17 +30,21 @@ body {
     width:6em;
     margin-top: -2.5em;
     font-size:7em;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 #morning {
-    background-color:#c9c9ff;
+    background-color:#ffd3f9;
 }
 
 #daytime {
-    background-color:red;
+    background-color:#97cdff;
 }
 #evening {
-    background-color:orange;
+    background-color:#d26f04;
 }
 
 #night {

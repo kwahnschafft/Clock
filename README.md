@@ -18,9 +18,8 @@ ___
 
 ### Change Log
 
-+ 1/18/15 - Created Repository
-+ 1/19/15 - Added index.php with buttons
-+ 1/20/15 - Edited index.php to add radio buttons, buttons, and image
-+ 1/21/15 - Added README file
-+ 1/22/15 - Changed image soure in index.php
-+ 1/23/15 - Added Video to index.php
++ 3/3/15 - Created Repository
++ 3/4/15 - Added index.php, logic.php, style.css and README.md
++ 3/5/15 - Edited index.php to require logic.php
++ 3/6/15 - Added image and clock to index.php
++ 3/6/15 - Created logic for changing pages in logic.php

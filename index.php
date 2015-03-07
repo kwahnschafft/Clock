@@ -4,6 +4,7 @@
             <?php require "logic.php"; ?>
             <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" type="text/css" href="style.css">
+            <title><?php echo $title; ?></title>
         </head>
         
         <body id="<?php echo $backColor;?>">
