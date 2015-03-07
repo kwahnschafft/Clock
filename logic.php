@@ -7,26 +7,31 @@ $today = date("g:i:sA");
 
 $date = date("G");
 
+$image = "";
+
+function doAll($word) {
+   global $image;
+   global $backColor;
+   global $title;
+   $image = "img/" . $word . ".png";
+   $backColor = $word;
+   $title = "Good " . ucfirst($word) . "!";
+}
+
 if($date >= 5 && $date < 11) { 
-   $image = "img/morning.png";
-   $backColor = "morning";
-   $title = "Good Morning!";
+   doAll("morning");
 }
 else if($date >= 11 && $date < 16) { 
-   $image = "img/daytime.png";
-   $backColor = "daytime";
-   $title = "Good Day!";
+   doAll("day");
 }
 else if($date >= 16 && $date < 20) { 
-   $image = "img/evening.png";
-   $backColor = "evening";
-   $title = "Good Evening!";
+   doAll("evening");
 }
 else {
-   $image = "img/night.png";
-   $backColor = "night";
-   $title = "Good Night!";
+   doAll("night");
 }
+
 
 
 ?>
+

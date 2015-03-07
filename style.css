@@ -31,7 +31,7 @@ body {
     position: relative;  
     width: 100%; 
     width:6em;
-    left:340px;
+    left:360px;
     margin-top: -2.6em;
     font-size:7em;
     cursor: default;
@@ -44,7 +44,7 @@ body {
     background-color:#ffd3f9;
 }
 
-#daytime {
+#day {
     background-color:#97cdff;
 }
 
