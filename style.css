@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Indie Flower', cursive;
 }
 
 #total {
@@ -31,7 +31,7 @@ body {
     position: relative;  
     width: 100%; 
     width:6em;
-    left:310px;
+    left:340px;
     margin-top: -2.6em;
     font-size:7em;
     cursor: default;
