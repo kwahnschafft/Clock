@@ -8,7 +8,7 @@
         </head>
         
         <body id="<?php echo $backColor;?>">
-            <div id=total>
+            <div id="total">
                 <img id="pic" src="<?php echo $image;?>"/>
                 <div id="time"><?php echo $today;?></div>
             </div>
