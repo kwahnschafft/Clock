@@ -1,20 +1,7 @@
+
 body {
-    -webkit-animation-delay: 0.1s;
-    -webkit-animation-name: fontfix;
-    -webkit-animation-duration: 0.1s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
 }
-
-@-webkit-keyframes fontfix {
-    from { opacity: 1; }
-    to   { opacity: 1; }
-}
-
-/*body {
-    font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
-}*/
 
 #total {
     background-color:blue;
@@ -44,7 +31,7 @@ body {
     position: relative;  
     width: 100%; 
     width:6em;
-    left:230px;
+    left:310px;
     margin-top: -2.6em;
     font-size:7em;
     cursor: default;
