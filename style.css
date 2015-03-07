@@ -1,5 +1,5 @@
 body {
-    font-family: 'Indie Flower', cursive;
+    font-family: "Courier New";
 }
 
 #total {
@@ -30,7 +30,7 @@ body {
     position: relative;  
     width: 100%; 
     width:6em;
-    left:370px;
+    left:230px;
     margin-top: -2.6em;
     font-size:7em;
     cursor: default;
